@@ -3,14 +3,11 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import MoviesList from "../MoviesList";
 class MoviesPage extends Component {
-
     static propTypes = {
         movies: PropTypes.array.isRequired
-    }
-
+    };
     state = {
-        
-    }
+    };
 
     render() {
         console.log(this.props);
